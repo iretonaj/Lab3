@@ -15,13 +15,13 @@ class Main {
       }
     }
 
-    else if (number < 0) {
+    if (number < 0) {
       while (number < 0) {
         System.out.println(number + 1);
         number++;
 
       }
     }
-    System.out.println("Blast Off!");
+    System.out.println("Blast off!");
   }
 }
